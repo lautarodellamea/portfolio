@@ -1,0 +1,79 @@
+.carrusel-container {
+  border-bottom: 1px solid var(--gray-color);
+  margin-bottom: 5rem;
+}
+
+.slider {
+  position: relative;
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  box-shadow: var(--box-shadow-light);
+}
+
+.slider-slides {
+  position: relative;
+  height: 50vh;
+}
+
+.slider-slide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;
+}
+
+.slider-slide img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.slider-slide p {
+  color: var(--text-color);
+  width: 70%;
+}
+
+.slider-slide.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slider-btns {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  top: calc(50% - 2.5rem); /* el 2.5rem es por la altura del mismo boton */
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.slider-btns-container {
+  margin: 1rem;
+  transition: var(--standar-transition);
+}
+
+.slider i {
+  display: block;
+  margin: 1rem;
+  color: var(--text-color);
+}
+
+.slider-btns-container:hover {
+  box-shadow: var(--box-shadow-hover);
+}
+
+.slider-btns-container:hover {
+  cursor: pointer;
+  background-color: var(--hover-light);
+}

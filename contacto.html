@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <meta name="theme-color" content="#18191d" />
+
+    <link rel="canonical" href="https://lautarodellamea.com/" />
+    <!-- Primary Meta Tags -->
+    <title>Lautaro Della Mea - Contacto</title>
+    <meta name="title" content="Lautaro Della Mea" />
+    <meta
+      name="description"
+      content="Hola! soy Lautaro Della Mea dev en formación"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lautarodellamea.com/" />
+    <meta property="og:title" content="Lautaro Della Mea" />
+    <meta
+      property="og:description"
+      content="Hola! soy Lautaro Della Mea dev en formación"
+    />
+    <meta
+      property="og:image"
+      content="https://lautarodellamea.com/img/lautarodellamea.jpg"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lautarodellamea.com/" />
+    <meta property="twitter:title" content="Lautaro Della Mea" />
+    <meta
+      property="twitter:description"
+      content="Hola! soy Lautaro Della Mea dev en formación"
+    />
+    <meta
+      property="twitter:image"
+      content="https://lautarodellamea.com/img/lautarodellamea.jpg"
+    />
+    <!-- Estilos y demás -->
+    <script
+      src="https://kit.fontawesome.com/42f1b65deb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/contacto.css" />
+
+    <script src="./assets/js/include-html.js" type="module"></script>
+  </head>
+
+  <body>
+    <div class="msg-api-formsubmit-container none-msg">
+      <p class="msg-api-formsubmit"></p>
+    </div>
+
+    <div class="contact-form-loader none-msg">
+      <img src="./assets/img/bars.svg" alt="Cargando" />
+    </div>
+
+    <main>
+      <div data-include="./components/header.html"></div>
+
+      <section id="contacto" class="contacto">
+        <div class="contacto-info">
+          <h4 class="services-h4-contacto h4-title">No dudes en contactarme</h4>
+          <h2 class="services-h2 h2-title">Datos de Contacto</h2>
+          <div class="contacto-items">
+            <div class="contacto-item">
+              <img src="./assets/img/mobile-phone.svg" alt="numero de teléfono" />
+              <div class="contacto-item-text">
+                <p class="contacto-item-text-title">Teléfono</p>
+                <p class="contacto-item-text-subtitle">
+                  <a href="tel: +54 9 03585106415">+54 9 03585106415 </a>
+                </p>
+              </div>
+            </div>
+            <div class="contacto-item">
+              <img src="./assets/img/location.svg" alt="numero de teléfono" />
+              <div class="contacto-item-text">
+                <p class="contacto-item-text-title">Dirección</p>
+                <p class="contacto-item-text-subtitle">
+                  <a href="https://www.google.com/maps/place/Ituzaing%C3%B3+575,+X5000+C%C3%B3rdoba/@-31.4238032,-64.1866589,17z/data=!3m1!4b1!4m6!3m5!1s0x9432a28fef8a2535:0xf51b71c09619d0ec!8m2!3d-31.4238078!4d-64.1840786!16s%2Fg%2F11jtyhpdgw?authuser=0"
+            target="_blank"">Ituzaingó 575, Córdoba, Argentina</a>
+                </p>
+              </div>
+            </div>
+            <div class="contacto-item">
+              <img src="./assets/img/book.svg" alt="numero de teléfono" />
+              <div class="contacto-item-text">
+                <p class="contacto-item-text-title">E-mail</p>
+                <p class="contacto-item-text-subtitle">
+                  <a href="mailto:lautarodm98@gmail.com"
+                    >Lautarodm98@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacto-form">
+          <form class="contact-form">
+            <legend>Enviame tu mensaje</legend>
+
+            <div class="contact-form-div">
+              <input
+                type="text"
+                name="name"
+                placeholder="Nombre *"
+                title="Nombre sólo acepta letras y espacios en blanco"
+                pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                required
+              />
+            </div>
+            <div class="contact-form-div">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email *"
+                title="Email incorrecto"
+                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$"
+                required
+              />
+            </div>
+
+            <!--  <div class="dos-input">
+            <input type="email" name="email" placeholder="Email *" title="Email incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required />
+            <input type="number" name="number" placeholder="Numero de teléfono *" title="Numero incorrecto" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required />
+          </div> -->
+            <div class="contact-form-div">
+              <input
+                type="text"
+                name="subject"
+                placeholder="Asunto a tratar"
+                title="El Asunto es requerido"
+                required
+              />
+            </div>
+            <textarea
+              class="contact-form-div"
+              name="comments"
+              rows="5"
+              placeholder="Deja tu mensaje *"
+              title="Tu comentario no debe exceder los 255 caracteres"
+              data-pattern="^[\s\S]{1,255}$"
+              required
+            ></textarea>
+            <div class="home-cv link-download link-download-loader">
+              <input class="btn-form" type="submit" value="Enviar mensaje" />
+              <img src="./assets/img/download-circle.svg" alt="#" />
+            </div>
+
+            <div class="contact-form-response none">
+              <p>Los datos han sido enviados</p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <div data-include="./components/footer.html"></div>
+
+      <button class="panel-btn hamburger hamburger--elastic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <button class="scroll-top-btn hidden">^</button>
+      <button class="dark-theme-btn">☾</button>
+
+      <script src="./assets/js/index_dom.js" type="module"></script>
+    </main>
+  </body>
+</html>

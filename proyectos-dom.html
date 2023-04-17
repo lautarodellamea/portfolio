@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
+    <meta name="theme-color" content="#18191d" />
+
+    <link rel="canonical" href="https://lautarodellamea.com/" />
+    <!-- Primary Meta Tags -->
+    <title>Lautaro Della Mea</title>
+    <meta name="title" content="Lautaro Della Mea" />
+    <meta
+      name="description"
+      content="Hola! soy Lautaro Della Mea dev en formación"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lautarodellamea.com/" />
+    <meta property="og:title" content="Lautaro Della Mea" />
+    <meta
+      property="og:description"
+      content="Hola! soy Lautaro Della Mea dev en formación"
+    />
+    <meta
+      property="og:image"
+      content="https://lautarodellamea.com/img/lautarodellamea.jpg"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lautarodellamea.com/" />
+    <meta property="twitter:title" content="Lautaro Della Mea" />
+    <meta
+      property="twitter:description"
+      content="Hola! soy Lautaro Della Mea dev en formación"
+    />
+    <meta
+      property="twitter:image"
+      content="https://lautarodellamea.com/img/lautarodellamea.jpg"
+    />
+    <!-- Estilos y demás -->
+    <script
+      src="https://kit.fontawesome.com/42f1b65deb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/proyectos-dom.css" />
+    <link rel="stylesheet" href="./assets/css/filtro-de-busqueda.css" />
+    <link rel="stylesheet" href="./assets/css/carrusel.css" />
+
+    <script src="./assets/js/include-html.js" type="module"></script>
+  </head>
+
+  <body>
+    <main>
+      <div data-include="./components/header.html"></div>
+
+      <section class="proyectos-dom-title">
+        <section class="proyectos-dom-title container">
+          <h1 class="h1-title">Proyectos DOM</h1>
+        </section>
+      </section>
+
+      <section class="filtro-de-busqueda">
+        <section class="filtro-de-busqueda-container container">
+          <h2 class="h2-proyectos-dom">Filtro de Búsqueda</h2>
+
+          <input type="search" placeholder="Buscar..." class="card-filter" />
+
+          <article class="cards">
+            <figure class="card">
+              <img src="./assets/img/campamento.jpg" alt="Nature" />
+              <figcaption>Campamento</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img src="./assets/img/calle.jpg" alt="Any" />
+              <figcaption>Calle</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img src="./assets/img/oceano.jpg" alt="Tech" />
+              <figcaption>Oceano</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img src="./assets/img/pan.jpg" alt="Animals" />
+              <figcaption>Pan</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img src="./assets/img/pilares.jpg" alt="People" />
+              <figcaption>Pilares</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img src="./assets/img/globo.jpg" alt="Architecture" />
+              <figcaption>Globo</figcaption>
+            </figure>
+          </article>
+        </section>
+      </section>
+
+      <section class="carrusel">
+        <section class="carrusel-container container">
+          <h2 class="h2-proyectos-dom">Carrusel</h2>
+          <div class="slider">
+            <div class="slider-slides">
+              <div class="slider-slide active">
+                <img src="./assets/img/paisaje-1.jpg" alt="animals" />
+              </div>
+              <div class="slider-slide">
+                <h4>2</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias, quidem voluptate aperiam quasi animi, ex earum iure
+                  tenetur ad corporis saepe exercitationem ab doloribus tempore
+                  consequuntur. Minus nostrum blanditiis dolore.
+                </p>
+              </div>
+              <div class="slider-slide">
+                <img src="./assets/img/paisaje-2.jpg" alt="nature" />
+              </div>
+              <div class="slider-slide">
+                <h4>4</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus perferendis totam enim quam vel veniam impedit rem
+                  quod laboriosam, maxime illo asperiores, illum eius. Nam
+                  libero quas ipsum et esse.
+                </p>
+              </div>
+            </div>
+            <div class="slider-btns">
+              <div class="slider-btns-container prev">
+                <i class="fa-solid fa-angle-left"></i>
+              </div>
+              <div class="slider-btns-container next">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <div data-include="./components/footer.html"></div>
+
+      <button class="panel-btn hamburger hamburger--elastic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <button class="scroll-top-btn hidden">^</button>
+      <button class="dark-theme-btn">☾</button>
+    </main>
+
+    <script src="./assets/js/index_dom.js" type="module"></script>
+  </body>
+</html>
